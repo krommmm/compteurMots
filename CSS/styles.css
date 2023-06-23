@@ -1,0 +1,45 @@
+/* html {
+	background: #2980b9;
+	background: -webkit-linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+	background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+	min-width: 400px;
+	text-align: center;
+} */
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.saisieTexte{
+	width:600px;
+	height: 200px;
+	padding: 15px;
+}
+label{
+	font-size:20px;
+	font-weight:600;
+}
+
+.bouton{
+	background-color: #de9782;
+	padding:10px;
+	color: white;
+	font-weight:600;
+	display:flex;
+	justify-content:center;
+}
+
+.texte_container{
+	display:flex;
+	flex-direction:column;
+	margin-top:20px;
+}
