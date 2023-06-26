@@ -43,3 +43,12 @@ label{
 	flex-direction:column;
 	margin-top:20px;
 }
+
+@media screen and (max-width: 680px){
+	.saisieTexte {
+		width: 80%;
+	  }
+	  .bouton{
+		width: 80%;
+	  }
+}
